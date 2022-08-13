@@ -2,7 +2,7 @@
 Book store implemented with SpringBoot
 
 # Note
-All Required Reference data will be created by application at startup
+All Required Reference data will be created by application at startup, Application is utilizing H2 DB 
 
 # Valid Book Types
   BTOO1 - Fiction

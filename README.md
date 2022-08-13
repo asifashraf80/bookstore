@@ -15,7 +15,7 @@ All Required Reference data will be created by application at startup
 http://localhost:8085/library/swagger-ui.html#/
 
 # Sample Payloads
-<b>New request</b>
+<b>New Book</b>
 {
   "author": "Sajid Khan",
   "bookTypeCode": "BT001",
@@ -25,7 +25,7 @@ http://localhost:8085/library/swagger-ui.html#/
   "price": 1000
 }
  
- <b>Update request</b>
+ <b>Update Book</b>
 {
 	"id":1
   "author": "Sajid Khan",
@@ -36,7 +36,7 @@ http://localhost:8085/library/swagger-ui.html#/
   "price": 1000
 }
 
-<b>Search request</b>
+<b>Search Book</b>
 {
     "pageNo": 0,
     "pageSize": 20,
@@ -48,7 +48,7 @@ http://localhost:8085/library/swagger-ui.html#/
      ]
 } <br>Allowed filter ids are name,description,author,isbn
 
-<b>Checkout request</b>
+<b>Checkout Books</b>
 {
   "bookIds": [
     5,

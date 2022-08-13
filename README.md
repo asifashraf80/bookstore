@@ -12,7 +12,7 @@ Docker (if you intend to deploy in containerized environment)
 # How to Run
 <b>Option 1: Command Line </b><br>
 	mvn clean install -DskipTests<br>
-	java -jar librarymgmt-0.0.1-SNAPSHOT.jarbr>
+	java -jar librarymgmt-0.0.1-SNAPSHOT.jar<br>
 <b>Option 2: Docker Container</b>
 	docker build .
 	

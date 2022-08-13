@@ -13,7 +13,7 @@ Docker (if you intend to deploy in containerized environment)
 <b>Option 1: Command Line </b><br>
 	mvn clean install -DskipTests<br>
 	java -jar librarymgmt-0.0.1-SNAPSHOT.jar<br>
-<b>Option 2: Docker Container</b>
+<b>Option 2: Docker Container</b><br>
 	docker build .
 	
 # Valid Book Types

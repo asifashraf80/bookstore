@@ -4,6 +4,15 @@ Book store implemented with SpringBoot
 # Note
 All Required Reference data will be created by application at startup, Application is utilizing H2 DB 
 
+# Prerequsite
+
+# How to Run
+<b>Option 1: Command Line </b>
+	mvn clean install -DskipTests
+	java -jar librarymgmt-0.0.1-SNAPSHOT.jar
+<b>Option 2: Docker Container</b>
+	docker build .
+	
 # Valid Book Types
   BTOO1 - Fiction
   BT002 - Comic

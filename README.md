@@ -5,8 +5,8 @@ Book store implemented with SpringBoot
 All Required Reference data will be created by application at startup, Application is utilizing H2 DB 
 
 # Prerequsite
-Java 8
-Maven 3.6+
+Java 8 <br>
+Maven 3.6+ <br>
 Docker (if you intend to deploy in containerized environment)
 
 # How to Run
